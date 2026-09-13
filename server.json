@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Nero-Engine/dataset-diff-detector",
+  "title": "Dataset Diff & Change Detector",
+  "description": "Compare two versions of a JSON row list: what was added, removed or changed, field by field.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/Nero-Engine/dataset-diff-detector-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/Nero-Engine/dataset-diff-detector-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dataset-diff-detector.nerolabs.workers.dev/mcp"
+    }
+  ]
+}
