@@ -105,6 +105,12 @@ Five differences come out. A105 was removed, A106 was added, A100 changed price 
 
 Removed rows come first, then changed rows in the order of `oldRows`, then added rows in the order of `newRows`.
 
+## Skills
+
+This server also publishes ready-made playbooks (Skills over MCP), so Claude and other agents know the steps for the whole job, not just each tool. Each is a `SKILL.md` at `skill://<name>/SKILL.md`, listed by `skills/list` and `resources/list`, read with `resources/read`.
+
+- `what-changed-between-snapshots`: Compare two snapshots of the same list (yesterday's and today's prices, product feed, job board, CRM export, competitor catalogue) and report what was added, removed and changed, field by field.
+
 ## Limits
 
 Up to **500 rows per call**, `oldRows` and `newRows` combined. For bigger lists, split them across several calls and keep the same key range on both sides of each call (for example SKUs A to M in one call, N to Z in the next), otherwise a row in one call looks removed while its match in another looks added. Anything larger returns a clear message rather than failing silently.
