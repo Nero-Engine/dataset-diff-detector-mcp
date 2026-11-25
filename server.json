@@ -3,7 +3,7 @@
   "name": "io.github.Nero-Engine/dataset-diff-detector",
   "title": "Dataset Diff & Change Detector",
   "description": "Compare two versions of a JSON row list: what was added, removed or changed, field by field.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/Nero-Engine/dataset-diff-detector-mcp",
     "source": "github"
