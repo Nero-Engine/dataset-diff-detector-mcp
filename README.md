@@ -1,5 +1,7 @@
 # Dataset Diff & Change Detector (Remote MCP Server)
 
+[![Dataset Diff & Change Detector (Remote MCP Server) MCP connector](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-diff-detector/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-diff-detector)
+
 **Compare two versions of the same list of JSON rows and get exactly what changed.** Hand it yesterday's price list and today's, last week's product feed and this week's, or two exports of the same CRM, name the field that identifies a row, and it tells you which rows were **added**, **removed** or **changed**, down to which fields moved on each one.
 
 Built for AI agents. No install, no API key, no signup. Connect by URL and call it.
