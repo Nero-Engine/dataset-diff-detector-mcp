@@ -1,0 +1,12 @@
+{
+  "name": "dataset-diff-detector",
+  "version": "0.2.0",
+  "description": "Compare two versions of a JSON row list: what was added, removed or changed, field by field.",
+  "mcpServers": {
+    "dataset-diff-detector": {
+      "httpUrl": "https://dataset-diff-detector.nerolabs.workers.dev/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

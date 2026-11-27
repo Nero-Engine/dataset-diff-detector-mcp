@@ -124,3 +124,7 @@ Your rows are processed in memory and never stored. To see which tools get used,
 The same engine runs on the Apify Store as [Dataset Diff & Change Detector](https://apify.com/nerolabs/dataset-diff-detector), which adds "since last run" snapshot mode (name a comparison and every run reports only what changed since the previous one, so you never supply the old side again), reads Apify datasets, CSV, Excel and JSON files and Google Sheets on either side, compares up to 100,000 rows a run, exports a CSV or Excel diff report, keeps a running change log in a named dataset, and posts each result to a webhook.
 
 Built by **Nero Labs**.
+
+## Gemini CLI
+
+- **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/dataset-diff-detector-mcp`
